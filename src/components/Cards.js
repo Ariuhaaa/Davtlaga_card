@@ -14,7 +14,7 @@ export default function Cards() {
                 </div>
                 <div className="align-items-center">
                   <h4>{e.title}</h4>
-                  <NavLink to="/detail">
+                  <NavLink to={`/detail/${e.id}`}>
                     <button>{e.button}</button>
                   </NavLink>
                 </div>
